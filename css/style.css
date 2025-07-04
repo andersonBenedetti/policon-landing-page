@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.btn {
+  background-image: url("../images/fundo-btn.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.btn-orange {
+  background-image: url("../images/btn-orange.svg");
+}
+
+.section-materia-prima {
+  background-image: url("../images/materia-prima.webp");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-pilares {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.27),
+      rgba(0, 0, 0, 0.27)
+    ),
+    linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%),
+    url("../images/somos-mais-que-fornecedor.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
